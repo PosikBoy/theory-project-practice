@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -107,7 +107,7 @@
                             является секретной информацией (ключом). Пример такого ключа
                             продемонстрирован, но в русском варианте.
                         </p>
-                        <img src="/img/image3.png" alt="" class="content__information-image image" />
+                        <img src="./img/image3.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Существует наука криптология, которая занимается проблемами
                             защиты информации. Она делится на два направления - криптографию
@@ -123,7 +123,7 @@
                             дешифрование - получение открытого сообщения из криптограммы без
                             знания ключа.
                         </p>
-                        <img src="/img/image4.png" alt="" class="content__information-image image image5" />
+                        <img src="./img/image4.png" alt="" class="content__information-image image image5" />
                         <p class="content__information-paragraph paragraph">
                             Во втором случае, получатель передает отправителю открытый ключ
                             по открытому каналу. Отправитель использует этот ключ для
@@ -133,7 +133,7 @@
                             второй секретный ключ, который невозможно вычислить по открытому
                             ключу. Схема такого протокола показана на рисунке 4.
                         </p>
-                        <img src="/img/image5.png" alt="" class="content__information-image image" />
+                        <img src="./img/image5.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Когда оценивают эффективность шифра, обычно руководствуются
                             правилом голландца Огюста Керкгоффса. Согласно этому правилу,
@@ -191,7 +191,7 @@
                             Рассмотрим пример преобразования. Изначально мы имеем матрицу
                             8х8.
                         </p>
-                        <img src="/img/image6.png" alt="" class="content__information-image image" />
+                        <img src="./img/image6.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Анализ изображений показывает, что для разных символов требуется
                             разное количество пикселей. Например, буква "Щ" содержит 29
@@ -202,7 +202,7 @@
                             отвлекающие пиксели. При таком преобразовании буква «Г» будет
                             выглядеть следующим образом.
                         </p>
-                        <img src="/img/image7.png" alt="" class="content__information-image image" />
+                        <img src="./img/image7.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Однако, буква все равно различима, поэтому матрицы полученных
                             символов необходимо трансформировать. Трансформация матрицы
@@ -211,7 +211,7 @@
                             сдвигов, генерация псевдослучайных целых, на основе которых
                             произойдет распределение пикселей, метод замены и т. д.
                         </p>
-                        <img src="/img/image8.png" alt="" class="content__information-image image" />
+                        <img src="./img/image8.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             На рисунке показан метод цикличного сдвига. Сдвиг с помощью
                             сдвиговых регистров реализуется с использованием переключаемых
@@ -223,11 +223,11 @@
                             к последнему столбцу. Слово «циклический» означает, что крайние
                             столбцы 1 и 12 являются, как бы соседними (смежными).
                         </p>
-                        <img src="/img/image9.png" alt="" class="content__information-image image" />
+                        <img src="./img/image9.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Так же существует вариация со сдвигом вниз или вверх
                         </p>
-                        <img src="/img/image10.png" alt="" class="content__information-image image" />
+                        <img src="./img/image10.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Можно использовать метод гаммирования, результат показан на рисунке 10. для трансформации
                             графической матрицы. При этом нечетные строки суммируются с числом 10100110, а четные строки
@@ -237,23 +237,23 @@
                             криптоаналитикам. Поэтому важно, чтобы период гаммы был достаточно большим и распределение
                             единиц и нулей в гамме было равномерным.
                         </p>
-                        <img src="/img/image11.png" alt="" class="content__information-image image" />
+                        <img src="./img/image11.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Если гамма состоит только из нулей, матрица не изменяется, а если состоит только из единиц,
                             получается негатив, что показано на рисунке 12. Отклонение от равномерного распределения
                             единиц и нулей увеличивает шансы на взлом шифра.
                         </p>
-                        <img src="/img/image12.png" alt="" class="content__information-image image" />
+                        <img src="./img/image12.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Описанные преобразования графических матриц удобно комментировать, используя математические
                             понятия: матрица, вектор-строка, векторстолбец. С помощью матрицы МЕ представим букву «Е». С
                             помощью матрицы MRamka сформируем изображение рамки, которое обрамляет изображение символа.
                         </p>
-                        <img src="/img/image13.png" alt="" class="content__information-image image" />
+                        <img src="./img/image13.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Наложим эти две матрицы друг на друга и получим матрицу MER. MER = ME + MRamka.
                         </p>
-                        <img src="/img/image14.png" alt="" class="content__information-image image" />
+                        <img src="./img/image14.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Осуществим перестановку вектор - столбцов матрицы MER Если изначальный ключ был
                             1-2-3-4-5-6-7-8, то теперь у матрицы будут перемещаны столбцы в соответствии с ключом
@@ -261,7 +261,7 @@
                             Математически эти формулы записываются так.
 
                         </p>
-                        <img src="/img/image15.png" alt="" class="content__information-image" />
+                        <img src="./img/image15.png" alt="" class="content__information-image" />
                         <p class="content__information-paragraph paragraph">
                             При криптоанализе методом перебора всех возможных ключей восстанавливаемые матрицы придётся
                             анализировать с помощью автоматических устройств. Устройство распознавания образов должно во
@@ -271,7 +271,7 @@
                             на рисунке 12, на котором добавление всего 9-ти символов полностью исказило чтение символов.
 
                         </p>
-                        <img src="/img/image16.png" alt="" class="content__information-image image" />
+                        <img src="./img/image16.png" alt="" class="content__information-image image" />
                         <p class="content__information-paragraph paragraph">
                             Таким образом, корректируя и усложняя метод шифрования графическими матрицами, можно
                             добиться того, что криптоаналитики и автоматические системы чтения не смогут подобрать
@@ -308,7 +308,7 @@
                             выполняемые над открытым текстом и криптограммой, изменяются синхронно с изменением значения
                             гаммы. Структурная схема криптографической системы с управляемыми операциями шифрования
                             показана на рисунке 13. </p>
-                        <img src="/img/image17.png" alt="" class="content__information-image image" />
+                        <img src="./img/image17.png" alt="" class="content__information-image image" />
 
                         <p class="content__information-paragraph paragraph">
                             Передача и прием данных в системе осуществлялись с использованием двух арифметико-логических
@@ -319,7 +319,7 @@
                         <p class="content__information-paragraph paragraph">
                             В качестве шифрующих преобразований можно использовать различные логические и арифметические
                             операции, а также математические функции и их комбинации. Они показаны в таблице 2. </p>
-                        <img src="/img/image18.png" alt="" class="content__information-image" />
+                        <img src="./img/image18.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             Одноалфавитные шифры не криптостойки из-за статистической устойчивости появления букв в
@@ -331,7 +331,7 @@
                             большой неравномерностью, что позволяет криптоаналитику успешно произвести дешифрацию
                             длинной криптограммы, созданной методом одноалфавитной замены.
                         </p>
-                        <img src="/img/image19.png" alt="" class="content__information-image image" />
+                        <img src="./img/image19.png" alt="" class="content__information-image image" />
 
                         <p class="content__information-paragraph paragraph">
                             Многоалфавитные шифры повышают криптостойкость, но могут быть взломаны, так как сохраняют
@@ -347,7 +347,7 @@
                             считается, что буква «е» встречается в открытом тексте чаще других, а буква «д» - реже
                             других. По этой причине для буквы «е» выделено 6 интервалов многоалфавитной замены, а для
                             буквы «д» - только 2. </p>
-                        <img src="/img/image20.png" alt="" class="content__information-image image" />
+                        <img src="./img/image20.png" alt="" class="content__information-image image" />
 
                         <p class="content__information-paragraph paragraph">
                             Шифрование с помощью таблицы многоалфавитной замены (ТМЗ) может быть осуществлено различными
@@ -359,14 +359,14 @@
                             гистограммы. Гистограмма обновляется после каждого зашифрованного символа, выделяя
                             максимальное значение, минимальное значение и провалы. Формирование криптограммы направлено
                             на выравнивание имеющегося распределения. Эта идея показана на рисунке 15. </p>
-                        <img src="/img/image21.png" alt="" class="content__information-image image" />
+                        <img src="./img/image21.png" alt="" class="content__information-image image" />
 
 
                         <p class="content__information-paragraph paragraph">
                             Предположим, что наибольший провал на гистограмме наблюдается в интервале чисел
                             [C_i,C_(i+1)] Пусть при этом для интегрального преобразования используется некоторая
                             подынтегральная функция f(x), показано на формуле 8. </p>
-                        <img src="/img/image22.png" alt="" class="content__information-image" />
+                        <img src="./img/image22.png" alt="" class="content__information-image" />
 
 
                         <p class="content__information-paragraph paragraph">
@@ -391,7 +391,7 @@
                             2. Оцениваем число интервалов на гистограмме по формуле (9). Для выбранного значения Smax,
                             число интервалов k = 17.6.
                         </p>
-                        <img src="/img/image23.png" alt="" class="content__information-image" />
+                        <img src="./img/image23.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             3. Определяем общее число интервалов в таблице многоалфавитной замены t, которое должно быть
@@ -404,7 +404,7 @@
                             алфавите открытого текста по формуле 10.
 
                         </p>
-                        <img src="/img/image24.png" alt="" class="content__information-image" />
+                        <img src="./img/image24.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             Здесь r – число символов в алфавите открытого текста (r = 256 при использовании всех
@@ -415,7 +415,7 @@
                             5. Вычисляем число интервалов замен для каждого символа алфавита открытого текста по формуле
                             11.
                         </p>
-                        <img src="/img/image25.png" alt="" class="content__information-image" />
+                        <img src="./img/image25.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             6. Задаем диапазон и положение гистограммы на числовой оси, а также ширину и положение
@@ -496,7 +496,7 @@
                             формы с незначительно отличающимся цветом от цвета текста. Для извлечения скрытого текста
                             выполняется заливка сетки белой краской. Это показано на рисунке 20
                         </p>
-                        <img src="/img/image26.png" alt="" class="content__information-image" />
+                        <img src="./img/image26.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             Также возможна скрытая передача одного мультимедийного продукта в другом мультимедийном
@@ -506,7 +506,7 @@
                             скрывает эти индексы в младших разрядах младших слов контейнера. Это продемонстрировано на
                             рисунке 21.
                         </p>
-                        <img src="/img/image27.png" alt="" class="content__information-image" />
+                        <img src="./img/image27.png" alt="" class="content__information-image" />
                         <p class="content__information-paragraph paragraph">
                             Идея скрытой передачи одного рисунка в другом рисунке состоит в замене блоков передаваемого
                             рисунка на блоки контейнера с наибольшим сходством. На принимающей стороне передаются номера
@@ -517,7 +517,7 @@
                             где отыскиваются сходные отсчеты и передаются номера отсчетов контейнера. Это показано на
                             рисунке 22.
                         </p>
-                        <img src="/img/image28.png" alt="" class="content__information-image" />
+                        <img src="./img/image28.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             Таким образом, криптография и стеганография решают сходные задачи, но разными способами.
@@ -541,7 +541,7 @@
                             при записи речи, фоточувствительного элемента при изменении освещённости, датчика давления
                             перед грозой и т.д.
                         </p>
-                        <img src="/img/image29.png" alt="" class="content__information-image" />
+                        <img src="./img/image29.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             Цифровой сигнал имеет пять значений по уровню. Качество преобразования низкое. Из рисунка
@@ -558,7 +558,7 @@
                             преобразователь (АЦП), а для обратного преобразования - цифроаналоговый преобразователь
                             (ЦАП). Это показано на рисунке 24.
                         </p>
-                        <img src="/img/image30.png" alt="" class="content__information-image" />
+                        <img src="./img/image30.png" alt="" class="content__information-image" />
 
                         <p class="content__information-paragraph paragraph">
                             Качество аналогово-цифрового преобразования определяется разрешением - количеством уровней
@@ -582,7 +582,7 @@
                             информация. Например, в ячейке O2H записано число 66H, что говорит о размере файла в 102
                             байта. А в ячейке OAH написано 36Н, что говорит о начале записи картинки в ячейке 36Н.
                         </p>
-                        <img src="/img/image31.png" alt="" class="content__information-image" />
+                        <img src="./img/image31.png" alt="" class="content__information-image" />
                         <p class="content__information-paragraph paragraph">
                             Таким же способом в дампе присутствует информация о разрешении картинки, глубине цвета,
                             число плоскостей. А далее в дампе идёт закодированные цвета картинки. Однако вес файла
@@ -597,7 +597,7 @@
                         </p>
                         <p class="content__information-paragraph paragraph">
                             В итоге внедрения информации дамп будет выглядеть следующим образом (Рисунок 26) </p>
-                        <img src="/img/image32.png" alt="" class="content__information-image" />
+                        <img src="./img/image32.png" alt="" class="content__information-image" />
 
 
                         <p class="content__information-paragraph paragraph">
